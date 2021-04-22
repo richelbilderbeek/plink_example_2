@@ -20,3 +20,19 @@ cat wgas.sim
 
 # Simulate data
 ./plink --simulate wgas.sim --make-bed --out sim1 --noweb
+
+# Show result file 'sim1.bed'
+head sim1.bed
+
+# Show result file 'sim1.bim'
+head sim1.bim
+
+# Show result file 'sim1.fam'
+head sim1.fam
+
+# Show result file 'sim1.log'
+head sim1.log
+
+# Show result file 'sim1.simfreq'
+head sim1.simfreq
+
