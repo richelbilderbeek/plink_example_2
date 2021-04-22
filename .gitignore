@@ -43,3 +43,6 @@ vignettes/*.pdf
 Makefile
 plink-1.07-x86_64
 *.log
+plink
+sim1.bed sim1.bim sim1.fam sim1.log sim1.simfreq
+sim1.*

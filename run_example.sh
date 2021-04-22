@@ -14,3 +14,9 @@ ln -s ./plink-1.07-x86_64/plink
 
 # Show PLINK's help
 ./plink --help
+
+# Show input file
+cat wgas.sim
+
+# Simulate data
+./plink --simulate wgas.sim --make-bed --out sim1 --noweb
