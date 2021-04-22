@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+*.zip
+*.cpp
+*.h
+Makefile
+plink-1.07-x86_64
+*.log
